@@ -1,0 +1,532 @@
+Uri: https://code.jivosite.com/widget/X2F48w2ogx
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\widget\X2F48w2ogx
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\css-1
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWVAexQ.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\opensans\v44\memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWVAexQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWVAexQ.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\opensans\v44\memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWVAexQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAexQ.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\opensans\v44\memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAexQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWVAexQ.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\opensans\v44\memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWVAexQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWVAexQ.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\opensans\v44\memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWVAexQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVc.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\opensans\v44\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4gaVc.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\opensans\v44\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4gaVc.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\opensans\v44\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\opensans\v44\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\opensans\v44\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v31/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE3U3f4c.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\rubik\v31\iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE3U3f4c.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v31/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE3U3f4c.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\rubik\v31\iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE3U3f4c.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v31/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE3U3f4c.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\rubik\v31\iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE3U3f4c.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v31/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FHU3f4c.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\rubik\v31\iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FHU3f4c.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v31/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8v0FHU3f4c.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\rubik\v31\iJWbBXyIfDnIV7nEt3KSJbVDV49rz8v0FHU3f4c.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v31/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-FV0Uw.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\rubik\v31\iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-FV0Uw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v31/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFV0Uw.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\rubik\v31\iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFV0Uw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v31/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYiFV0Uw.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\rubik\v31\iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYiFV0Uw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v31/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-ro-FV0Uw.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\rubik\v31\iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-ro-FV0Uw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v31/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYiFV0Uw.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\s\rubik\v31\iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYiFV0Uw.ttf
+Content Type: font/ttf
+
+Uri: https://tetripetrolium.kz/
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\index.htm
+Content Type: text/html
+
+Uri: https://tetripetrolium.kz/about.html
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\about.html
+Content Type: text/html
+
+Uri: https://tetripetrolium.kz/assets/css/animate.min.css
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\css\animate.min.css
+Content Type: text/css
+
+Uri: https://tetripetrolium.kz/assets/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://tetripetrolium.kz/assets/css/flaticon.css
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\css\flaticon.css
+Content Type: text/css
+
+Uri: https://tetripetrolium.kz/assets/css/fontawesome.min.css
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\css\fontawesome.min.css
+Content Type: text/css
+
+Uri: https://tetripetrolium.kz/assets/css/magnific-popup.min.css
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\css\magnific-popup.min.css
+Content Type: text/css
+
+Uri: https://tetripetrolium.kz/assets/css/meanmenu.css
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\css\meanmenu.css
+Content Type: text/css
+
+Uri: https://tetripetrolium.kz/assets/css/nice-select.css
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\css\nice-select.css
+Content Type: text/css
+
+Uri: https://tetripetrolium.kz/assets/css/odometer.css
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\css\odometer.css
+Content Type: text/css
+
+Uri: https://tetripetrolium.kz/assets/css/owl.carousel.min.css
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\css\owl.carousel.min.css
+Content Type: text/css
+
+Uri: https://tetripetrolium.kz/assets/css/owl.video.play.html
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\css\owl.video.play.html
+Content Type: text/html
+
+Uri: https://tetripetrolium.kz/assets/css/responsive.css
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\css\responsive.css
+Content Type: text/css
+
+Uri: https://tetripetrolium.kz/assets/css/style.css
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\css\style.css
+Content Type: text/css
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-brands-400.eot
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-brands-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-brands-400.svg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-brands-400.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-brands-400.ttf
+Content Type: application/font-sfnt
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-brands-400.woff
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-brands-400.woff
+Content Type: application/font-woff
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-brands-400.woff2
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-brands-400d41d.eot?
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-brands-400d41d.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-regular-400.eot
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-regular-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-regular-400.svg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-regular-400.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-regular-400.ttf
+Content Type: application/font-sfnt
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-regular-400.woff
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-regular-400.woff
+Content Type: application/font-woff
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-regular-400.woff2
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-regular-400d41d.eot?
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-regular-400d41d.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-solid-900.eot
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-solid-900.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-solid-900.svg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-solid-900.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-solid-900.ttf
+Content Type: application/font-sfnt
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-solid-900.woff
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-solid-900.woff
+Content Type: application/font-woff
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-solid-900.woff2
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://tetripetrolium.kz/assets/fonts/fa-solid-900d41d.eot?
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\fa-solid-900d41d.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tetripetrolium.kz/assets/fonts/Flaticon.eot
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\Flaticon.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tetripetrolium.kz/assets/fonts/Flaticon.svg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\Flaticon.svg
+Content Type: image/svg+xml
+
+Uri: https://tetripetrolium.kz/assets/fonts/Flaticon.ttf
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\Flaticon.ttf
+Content Type: application/font-sfnt
+
+Uri: https://tetripetrolium.kz/assets/fonts/Flaticon.woff
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\Flaticon.woff
+Content Type: application/font-woff
+
+Uri: https://tetripetrolium.kz/assets/fonts/Flaticon.woff2
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\Flaticon.woff2
+Content Type: font/woff2
+
+Uri: https://tetripetrolium.kz/assets/fonts/Flaticond41d.eot?
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\fonts\Flaticond41d.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tetripetrolium.kz/assets/img/about1.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\about1.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/about2.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\about2.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/big-dream.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\big-dream.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/blog-one.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\blog-one.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/blog-three.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\blog-three.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/blog-two.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\blog-two.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/client2.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\client2.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/construction.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\construction.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/contact.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\contact.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/cta-bg.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\cta-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/cta-bg2.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\cta-bg2.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/engineer.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\engineer.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/faq.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\faq.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/favicon.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\favicon.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/info.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\info.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/logo.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\logo.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/main-banner1.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\main-banner1.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/main-banner2.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\main-banner2.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/main-banner3.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\main-banner3.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/main-banner4.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\main-banner4.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/main-banner5.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\main-banner5.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/main-banner6.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\main-banner6.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/main-banner7.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\main-banner7.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/main-banner8.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\main-banner8.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/main-banner9.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\main-banner9.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/map.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\map.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/map2.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\map2.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/page-title-bg.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\page-title-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/partner1.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\partner1.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/partner2.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\partner2.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/partner3.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\partner3.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/partner4.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\partner4.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/partner5.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\partner5.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/project-five.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\project-five.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/project-four.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\project-four.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/project-one.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\project-one.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/project-three.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\project-three.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/project-two.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\project-two.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/quote.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\quote.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/service-five.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\service-five.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/service-four.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\service-four.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/service-one.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\service-one.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/service-six.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\service-six.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/service-three.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\service-three.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/service-two.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\service-two.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/settings.png
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\settings.png
+Content Type: image/png
+
+Uri: https://tetripetrolium.kz/assets/img/team-five.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\team-five.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/team-four.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\team-four.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/team-nine.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\team-nine.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/team-one.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\team-one.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/team-six.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\team-six.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/team-three.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\team-three.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/team-two.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\team-two.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/testimonial-bg.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\testimonial-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/img/why-choose-us.jpg
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\img\why-choose-us.jpg
+Content Type: image/jpeg
+
+Uri: https://tetripetrolium.kz/assets/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/assets/js/contact-form-script.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\contact-form-script.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/assets/js/form-validator.min.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\form-validator.min.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/assets/js/jquery.ajaxchimp.min.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\jquery.ajaxchimp.min.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/assets/js/jquery.appear.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\jquery.appear.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/assets/js/jquery.magnific-popup.min.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\jquery.magnific-popup.min.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/assets/js/jquery.meanmenu.min.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\jquery.meanmenu.min.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/assets/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/assets/js/jquery.nice-select.min.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\jquery.nice-select.min.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/assets/js/main.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\main.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/assets/js/mixitup.min.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\mixitup.min.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/assets/js/odometer.min.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\odometer.min.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/assets/js/owl.carousel.min.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\owl.carousel.min.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/assets/js/popper.min.js
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\assets\js\popper.min.js
+Content Type: application/javascript
+
+Uri: https://tetripetrolium.kz/contact.html
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\contact.html
+Content Type: text/html
+
+Uri: https://tetripetrolium.kz/index.html
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\index.html
+Content Type: text/html
+
+Uri: https://tetripetrolium.kz/oil-and-gas.html
+File Name: C:\Downloaded Web Sites\tetripetrolium.kz\oil-and-gas.html
+Content Type: text/html
+

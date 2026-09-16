@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap Min CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Animate Min CSS -->
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <!-- Flaticon CSS -->
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <!-- Meanmenu CSS -->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!-- Owl Carousel Min CSS -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <!-- Odometer CSS -->
+        <link rel="stylesheet" href="assets/css/odometer.css">
+        <!-- Magnific Popup Min CSS -->
+        <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+		<!-- NiceSelect CSS -->
+		<link rel="stylesheet" href="assets/css/nice-select.css">
+		<!-- FontAwesome Min CSS -->
+		<link rel="stylesheet" href="assets/css/fontawesome.min.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <title>Lains Dzhamp LLP</title>
+
+        <link rel="icon" type="image/png" href="images/logo.png">
+    
+<style>
+
+/* Header Middle Overrides */
+.header-middle {
+    background-color: var(--surface-light) !important;
+}
+.header-middle .header-information ul li h5 {
+    color: var(--primary-brand) !important;
+}
+.header-middle .header-information ul li p {
+    color: var(--secondary-slate) !important;
+}
+
+/* Header Overrides */
+.induxtro-nav { 
+    background-color: var(--primary-brand) !important; 
+    border-bottom: 1px solid rgba(98, 129, 164, 0.2) !important; 
+}
+.induxtro-nav > .container .navbar-nav > .nav-item > a { 
+    color: #ffffff !important; 
+}
+.induxtro-nav > .container .navbar-nav > .nav-item > a:hover { 
+    color: var(--core-accent) !important; 
+}
+
+/* Hero Overrides */
+.home-slides .main-banner::before {
+    background: linear-gradient(135deg, rgba(4, 65, 120, 0.9) 0%, rgba(4, 65, 120, 0.75) 100%) !important;
+    opacity: 1 !important;
+}
+
+/* Dropdown styles to ensure it renders correctly on desktop */
+@media (min-width: 992px) {
+    .induxtro-nav nav .navbar-nav .nav-item .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: var(--surface-light) !important;
+        border: 1px solid rgba(98, 129, 164, 0.2) !important;
+        min-width: 220px;
+        z-index: 99;
+    }
+    .induxtro-nav nav .navbar-nav .nav-item:hover > .dropdown-menu {
+        display: block !important;
+    }
+}
+/* Mobile & Global Dropdown Overrides */
+.induxtro-nav nav .navbar-nav .nav-item .dropdown-menu li.nav-item {
+    margin: 0;
+}
+.induxtro-nav nav .navbar-nav .nav-item .dropdown-menu li a.nav-link {
+    color: var(--primary-brand) !important;
+    padding: 10px 15px !important;
+    margin: 0;
+    font-weight: 500;
+}
+.induxtro-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a.nav-link,
+.induxtro-nav nav .navbar-nav .nav-item .dropdown-menu li a.nav-link:hover {
+    background-color: var(--core-accent) !important;
+    color: #fff !important;
+}
+
+.searchBoxTop, .others-option { display: none !important; }
+
+/* Preloader Overrides */
+.preloader {
+    background-color: rgba(248, 250, 252, 0.95) !important; /* Milky white / surface-light */
+    backdrop-filter: blur(5px);
+}
+.preloader-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: pulse-logo 1.5s infinite ease-in-out;
+}
+.preloader-logo img {
+    max-height: 80px;
+    width: auto;
+}
+@keyframes pulse-logo {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+    50% { transform: translate(-50%, -50%) scale(1.15); opacity: 0.6; }
+    100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+}
+
+/* Page Title Area Override */
+.page-title-area {
+    background-image: url('images/caro1.jpeg') !important;
+}
+
+/* Translator Override */
+.translator-wrapper {
+    text-align: right !important;
+}
+.translator-wrapper ul.translator-dropdown {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.translator-wrapper ul.translator-dropdown > li.current-lang {
+    position: relative;
+    cursor: pointer;
+    color: var(--secondary-slate);
+    font-size: 14px;
+    padding: 5px 15px;
+    background: transparent;
+    border: 1px solid rgba(98, 129, 164, 0.2);
+    border-radius: 4px;
+    transition: all 0.3s;
+    line-height: 1.5;
+}
+.translator-wrapper ul.translator-dropdown > li.current-lang:hover {
+    background: rgba(98, 129, 164, 0.05);
+}
+.translator-wrapper ul.lang-options {
+    position: absolute;
+    top: 120%;
+    right: 0;
+    background: #ffffff;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    min-width: 160px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 9999;
+    text-align: left;
+    padding: 5px 0;
+}
+.translator-wrapper ul.translator-dropdown > li.current-lang:hover .lang-options {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.translator-wrapper ul.lang-options li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.translator-wrapper ul.lang-options li a {
+    display: block;
+    padding: 8px 20px;
+    color: var(--primary-brand);
+    text-decoration: none;
+    font-size: 13px;
+    transition: background 0.2s;
+    border: none;
+}
+.translator-wrapper ul.lang-options li a:hover {
+    background: rgba(98, 129, 164, 0.05);
+    color: var(--core-accent);
+}
+</style>
+
+
+<style>
+/* Products Catalog Styles */
+.products-hub {
+    padding: 80px 0;
+    background-color: var(--surface-light);
+}
+.filter-bar {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.filter-btn {
+    background: transparent;
+    border: 2px solid var(--secondary-slate);
+    color: var(--primary-brand);
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.filter-btn.active, .filter-btn:hover {
+    background: var(--core-accent);
+    border-color: var(--core-accent);
+    color: #fff;
+}
+.product-card {
+    background: #F8FAFC;
+    border: 1px solid rgba(98, 129, 164, 0.2);
+    border-top: 4px solid var(--primary-brand);
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.product-card:hover {
+    border-top-color: var(--core-accent);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+.product-title {
+    color: var(--primary-brand);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.product-summary {
+    color: var(--secondary-slate);
+    font-size: 15px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+.tech-params {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+.tech-params th, .tech-params td {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(98, 129, 164, 0.2);
+    font-size: 14px;
+}
+.tech-params th {
+    text-align: left;
+    color: var(--primary-brand);
+    font-weight: 600;
+}
+.tech-params td {
+    text-align: right;
+    color: var(--secondary-slate);
+}
+.btn-outline-accent {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: 2px solid var(--core-accent);
+    color: var(--core-accent);
+    background: transparent;
+    padding: 12px 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.btn-outline-accent:hover {
+    background: var(--core-accent);
+    color: #ffffff;
+}
+.page-banner {
+    background: linear-gradient(135deg, rgba(4, 65, 120, 0.9) 0%, rgba(4, 65, 120, 0.75) 100%), url(assets/img/main-banner4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    text-align: center;
+}
+.page-banner h1 {
+    color: #fff;
+    font-size: 48px;
+    margin: 0;
+}
+.searchBoxTop, .others-option { display: none !important; }
+
+/* Preloader Overrides */
+.preloader {
+    background-color: rgba(248, 250, 252, 0.95) !important; /* Milky white / surface-light */
+    backdrop-filter: blur(5px);
+}
+.preloader-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: pulse-logo 1.5s infinite ease-in-out;
+}
+.preloader-logo img {
+    max-height: 80px;
+    width: auto;
+}
+@keyframes pulse-logo {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+    50% { transform: translate(-50%, -50%) scale(1.15); opacity: 0.6; }
+    100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+}
+
+/* Page Title Area Override */
+.page-title-area {
+    background-image: url('images/caro1.jpeg') !important;
+}
+
+/* Translator Override */
+.translator-wrapper {
+    text-align: right !important;
+}
+.translator-wrapper ul.translator-dropdown {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.translator-wrapper ul.translator-dropdown > li.current-lang {
+    position: relative;
+    cursor: pointer;
+    color: var(--secondary-slate);
+    font-size: 14px;
+    padding: 5px 15px;
+    background: transparent;
+    border: 1px solid rgba(98, 129, 164, 0.2);
+    border-radius: 4px;
+    transition: all 0.3s;
+    line-height: 1.5;
+}
+.translator-wrapper ul.translator-dropdown > li.current-lang:hover {
+    background: rgba(98, 129, 164, 0.05);
+}
+.translator-wrapper ul.lang-options {
+    position: absolute;
+    top: 120%;
+    right: 0;
+    background: #ffffff;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    min-width: 160px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 9999;
+    text-align: left;
+    padding: 5px 0;
+}
+.translator-wrapper ul.translator-dropdown > li.current-lang:hover .lang-options {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.translator-wrapper ul.lang-options li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.translator-wrapper ul.lang-options li a {
+    display: block;
+    padding: 8px 20px;
+    color: var(--primary-brand);
+    text-decoration: none;
+    font-size: 13px;
+    transition: background 0.2s;
+    border: none;
+}
+.translator-wrapper ul.lang-options li a:hover {
+    background: rgba(98, 129, 164, 0.05);
+    color: var(--core-accent);
+}
+</style>
+
+</head>
+
+    <body>
+                <!-- Start Preloader Area -->
+        <div class="preloader">
+            <div class="preloader-logo">
+                <img src="images/logo.png" alt="Lains Dzhamp LLP Loader">
+            </div>
+        </div>
+        <!-- End Preloader Area -->
+
+        <!-- Start Header Area -->
+        <header class="header header-style-two">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="header-info">
+                                <p><i class="flaticon-mail"></i> <a href="mailto:info@lainsdzhamp.kz">info@lainsdzhamp.kz</a></p>
+                            </div>
+                        </div>
+
+                                                <div class="col-lg-6">
+                            <div class="header-info translator-wrapper">
+                                <ul class="translator-dropdown">
+                                    <li class="current-lang">
+                                        <i class="fas fa-globe" style="margin-right: 5px;"></i> English <i class="fas fa-chevron-down" style="font-size: 10px; margin-left: 5px;"></i>
+                                        <ul class="lang-options">
+                                            <li><a href="javascript:void(0)" onclick="translateLanguage('en')">English</a></li>
+                                            <li><a href="javascript:void(0)" onclick="translateLanguage('ru')">Русский (Russian)</a></li>
+                                            <li><a href="javascript:void(0)" onclick="translateLanguage('kk')">Қазақ (Kazakh)</a></li>
+                                            <li><a href="javascript:void(0)" onclick="translateLanguage('zh-CN')">中文 (Chinese)</a></li>
+                                            <li><a href="javascript:void(0)" onclick="translateLanguage('sv')">Svenska (Swedish)</a></li>
+                                            <li><a href="javascript:void(0)" onclick="translateLanguage('ar')">العربية (Arabic)</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-middle">
+                <div class="container">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-lg-5">
+                            <div class="logo">
+                                <a href="index-2.html">
+                                    <img src="images/logo.png" alt="Lains Dzhamp LLP Logo" style="max-height: 65px; width: auto;">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7">
+                            <div class="header-information">
+                                <ul>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="flaticon-clock-1"></i>
+                                        </div>
+            
+                                        <h5>Office Hour:</h5>
+                                        <p>Mon - Fri: 8.00 - 5.00pm</p>
+                                    </li>
+
+ 
+
+                                    <li>
+                                        <a href="contact.html" class="btn btn-primary" style="background: var(--core-accent); color: #fff;">Contact Us <i class="flaticon-right"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-area">
+                <div class="induxtro-mobile-nav">
+                    <div class="logo">
+                        <a href="index-2.html"><img src="images/logo.png" alt="Lains Dzhamp LLP Logo" style="max-height: 65px; width: auto;"></a>
+                    </div>
+                </div>
+
+                <div class="induxtro-nav" style="background-color: var(--primary-brand); border-bottom: 1px solid rgba(98, 129, 164, 0.2);">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-md navbar-light">
+                            <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                                    <li class="nav-item"><a href="about.html" class="nav-link">About Us <i class="fas fa-chevron-down"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                                            <li class="nav-item"><a href="history.html" class="nav-link">History</a></li>
+                                            <li class="nav-item"><a href="organization-philosophy.html" class="nav-link">Organization Philosophy</a></li>
+                                            <li class="nav-item"><a href="target-strategies.html" class="nav-link">Target & Strategies</a></li>
+                                            <li class="nav-item"><a href="responsibilities.html" class="nav-link">Responsibilities</a></li>
+                                            <li class="nav-item"><a href="sustainability.html" class="nav-link">Sustainability</a></li>
+                                            <li class="nav-item"><a href="corporate-disclosures.html" class="nav-link">Corporate Disclosures</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="services.html" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a href="services.html" class="nav-link">Services Overview</a></li>
+                                            <li class="nav-item"><a href="logistics.html" class="nav-link">Logistics</a></li>
+                                            <li class="nav-item"><a href="tank-warehouse-port.html" class="nav-link">Tank Warehouse Port</a></li>
+                                            <li class="nav-item"><a href="our-quality-policy.html" class="nav-link">Our Quality Policy</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="products.html" class="nav-link">Products <i class="fas fa-chevron-down"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a href="products.html#bitumen" class="nav-link">Bitumen</a></li>
+                                            <li class="nav-item"><a href="products.html#crude-oil" class="nav-link">Crude Oil</a></li>
+                                            <li class="nav-item"><a href="products.html#diesel" class="nav-link">Diesel</a></li>
+                                            <li class="nav-item"><a href="products.html#fuel-oil" class="nav-link">Fuel Oil</a></li>
+                                            <li class="nav-item"><a href="products.html#jet-fuel" class="nav-link">Jet Fuel</a></li>
+                                            <li class="nav-item"><a href="products.html#light-cycle-oil" class="nav-link">Light Cycle Oil</a></li>
+                                            <li class="nav-item"><a href="products.html#lng" class="nav-link">Liquefied Natural Gas</a></li>
+                                            <li class="nav-item"><a href="products.html#lpg" class="nav-link">Liquefied Petroleum Gas</a></li>
+                                            <li class="nav-item"><a href="products.html#petroleum-coke" class="nav-link">Petroleum Coke</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                                </ul>
+                                
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="searchBoxTop">
+                        <div class="seachBoxContainer">
+                            <div class="container">
+                                <span class="searchClose"></span>
+
+                                <form>
+                                    <input class="form-control" type="text" placeholder="Search here..">
+                                    <button type="submit"><i class="flaticon-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header Area -->
+
+<!-- Page Banner -->
+<div class="page-banner">
+    <div class="container">
+        <h1>Tank Warehouse Port</h1>
+    </div>
+</div>
+
+    <section class="subpage-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="subpage-card">
+                        <p>As Lains Dzhamp LLP Products Company Group, we carry out the heavy work based on certain agreements made with our new international business partners in order to advance further each day within the framework of planned targets towards the future through secure steps within the commercial business fields in questions as stated below.</p>
+<p>We are keeping an eye on the opportunities of production&nbsp;and management investments based on our aforementioned trading&nbsp;activities in question with the purpose of strengthening and expanding our&nbsp;group activity scope in a prospective manner and becoming an international&nbsp;brand.</p>
+<p>We are in a heavy schedule for disclosing formations based on our&nbsp; accumulations and experience, incoming opportunities, supplier resources,customer relations, financial institutions, project partners and our own&nbsp;input in investment fields based on the entire aforementioned trading and&nbsp;management in question.&nbsp;This introduction of past and future information has the purpose of briefing&nbsp;you, our honorable cooperation partners.</p>
+                        <br>
+                        <a href="contact.html" class="btn-accent">Contact Our Team</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-area ptb-100 pb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-footer-widget">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="images/logo.png" alt="Lains Dzhamp LLP Logo" style="max-height: 65px; width: auto;">
+                                </a>
+                            </div>
+                            <p>Lains Dzhamp LLP is committed to producing petroleum products in a manner that is protective of the health and safety of our employees, customers, contractors and neighbors as well as in a manner that is environmentally responsible while fully meeting and/or exceeding applicable federal, state local laws & regulations.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-footer-widget ml-3">
+                            <h3>Our Company</h3>
+
+                            <ul class="list">
+                                <li><a href="#">About Company</a> </li>
+                                <li><a href="#">Our Testimonials</a> </li>
+                                <li><a href="#">Get a Free Quote</a> </li>
+                                <li><a href="#">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-footer-widget">
+                            <h3>Our Operations</h3>
+
+                            <ul class="list">
+                                <li><a href="#">Oil & Gas Engineering</a> </li>
+                                <li><a href="#">Petroleum Research</a> </li>
+                                <li><a href="#">Oil & Gas Coal</a> </li>
+                                <li><a href="#">Automation</a> </li>
+                                <li><a href="#">Power & Energy</a> </li>
+                                <li><a href="#">Oil & Gas Filtering</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-footer-widget">
+                            <h3>Contact Us</h3>
+
+                            <ul class="contact-info">
+                                <li><span>Location:</span> Aktobe region, Aktobe city district, Aktobe city, Astana district, Tauke Khan street, house 24 (BIN: 911240000099)</li>
+                                <li><span>Email:</span> <a href="mailto:info@lainsdzhamp.kz">info@lainsdzhamp.kz</a>, <a href="mailto:sales@lainsdzhamp.kz">sales@lainsdzhamp.kz</a></li>
+   
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <p>Lains Dzhamp LLP. All rights reserved.</p>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <ul>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Site Map</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer Area -->
+
+        <div class="go-top"><i class="flaticon-chevron"></i></div>
+
+        <!-- Jquery Min Js -->
+        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
+        <!-- Popper Min JS -->
+        <script src="assets/js/popper.min.js"></script>
+        <!-- Bootstrap Min JS -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Meanmenu Min JS -->
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <!-- Owl Carousel Min JS -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!-- Appear Min JS -->
+		<script src="assets/js/jquery.appear.js"></script>
+		<!-- Odometer Min JS -->
+        <script src="assets/js/odometer.min.js"></script>
+        <!-- Magnific Popup Min JS -->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- Mixitup min JS -->
+        <script src="assets/js/mixitup.min.js"></script>
+		<!-- NiceSelect Min Js -->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!-- AjaxChimp JS -->
+        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+        <!-- Form Validator Min JS -->
+        <script src="assets/js/form-validator.min.js"></script>
+        <!-- Contact Form Min JS -->
+        <script src="assets/js/contact-form-script.js"></script>
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
+        
+
+        
+    
+    <!-- Google Translate Custom Integration -->
+    <div id="google_translate_element" style="display:none;"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,ru,kk,zh-CN,sv,ar', autoDisplay: false}, 'google_translate_element');
+        }
+        function translateLanguage(langCode) {
+            var selectField = document.querySelector("select.goog-te-combo");
+            if (selectField) {
+                selectField.value = langCode;
+                selectField.dispatchEvent(new Event('change'));
+            }
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <style>
+        /* Hide the annoying Google Translate top bar and popups completely */
+        .skiptranslate iframe { display: none !important; }
+        body { top: 0px !important; }
+        .goog-te-banner-frame { display: none !important; }
+        .goog-tooltip { display: none !important; }
+        .goog-tooltip:hover { display: none !important; }
+        .goog-text-highlight { background-color: transparent !important; box-shadow: none !important; }
+    </style>
+
+</body>
+
+
+</html>
