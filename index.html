@@ -60,8 +60,144 @@
 
 /* Hero Overrides */
 .home-slides .main-banner::before {
-    background: linear-gradient(135deg, rgba(4, 65, 120, 0.9) 0%, rgba(4, 65, 120, 0.75) 100%) !important;
+    background: linear-gradient(135deg, rgba(4, 65, 120, 0.45) 0%, rgba(4, 65, 120, 0.25) 100%) !important;
     opacity: 1 !important;
+}
+.main-banner-content h1 {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+.main-banner-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-shadow: 0 1px 5px rgba(0,0,0,0.3);
+}
+.main-banner-content .btn {
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+.main-banner-content .btn-primary {
+    background: var(--core-accent);
+    border-color: var(--core-accent);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+.main-banner-content .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+/* Spectacular Cards Redesign */
+.single-services-box {
+    position: relative;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    background: #fff;
+    margin-bottom: 40px;
+}
+.single-services-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+.single-services-box .services-image {
+    position: relative;
+    overflow: hidden;
+}
+.single-services-box .services-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+.single-services-box:hover .services-image::after {
+    opacity: 1;
+}
+.single-services-box .services-image img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.single-services-box:hover .services-image img {
+    transform: scale(1.08);
+}
+.single-services-box .services-image .icon {
+    position: absolute;
+    bottom: -25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    background: var(--core-accent, #007bff);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    z-index: 2;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.4s ease;
+}
+.single-services-box:hover .services-image .icon {
+    background: var(--primary-brand, #002e5b);
+    transform: rotate(360deg);
+}
+.single-services-box .services-content {
+    padding: 35px 30px 30px;
+    position: relative;
+    background: #fff;
+    z-index: 2;
+}
+.single-services-box .services-content h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+.single-services-box .services-content h3 a {
+    color: var(--primary-brand, #1a1a1a);
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+.single-services-box:hover .services-content h3 a {
+    color: var(--core-accent, #007bff);
+}
+.single-services-box .services-content .link-icon {
+    margin-top: 15px;
+}
+.single-services-box .services-content .link-icon a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.03);
+    color: var(--primary-brand, #333);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.single-services-box:hover .services-content .link-icon a {
+    background: var(--core-accent, #007bff);
+    color: #fff;
+}
+.single-services-box .services-content .icon {
+    display: none !important;
 }
 
 /* Dropdown styles to ensure it renders correctly on desktop */
@@ -126,6 +262,46 @@
 /* Testimonials Background Override */
 .testimonials-area {
     background-image: url('images/caro2.jpeg') !important;
+    position: relative;
+}
+.single-testimonials {
+    background: #fff;
+    border-radius: 12px;
+    padding: 35px 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin: 15px;
+    border: 1px solid rgba(0,0,0,0.03);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.single-testimonials:hover {
+    transform: translateY(-5px);
+}
+.single-testimonials .client-info {
+    margin-bottom: 20px;
+}
+.single-testimonials .client-info img {
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    border: 3px solid var(--surface-light);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    object-fit: cover;
+    display: inline-block;
+}
+.single-testimonials .client-info h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-brand);
+    margin-bottom: 5px;
+}
+.single-testimonials p {
+    font-size: 15px;
+    font-style: italic;
+    color: var(--secondary-slate);
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 /* Translator Override */
@@ -192,6 +368,470 @@
 .translator-wrapper ul.lang-options li a:hover {
     background: rgba(98, 129, 164, 0.05);
     color: var(--core-accent);
+}
+/* About Redesign Overrides */
+.about-inner {
+    border: none !important;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.1) !important;
+    background: #0f172a !important; /* Elegant dark slate */
+}
+.about-inner .about-inner-image {
+    border-right: none !important;
+}
+.about-inner .about-inner-image img {
+    height: 100%;
+    object-fit: cover;
+    min-height: 100%;
+    display: block;
+}
+.about-inner .about-inner-content {
+    padding: 60px 50px !important;
+    background: #0f172a;
+}
+.about-inner .about-inner-content span {
+    color: #38bdf8 !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.about-inner .about-inner-content h3 {
+    font-size: 32px !important;
+    font-weight: 700;
+}
+.about-inner .about-inner-content p {
+    color: #94a3b8 !important;
+    line-height: 1.8;
+}
+.about-inner .about-inner-content ul li {
+    color: #cbd5e1 !important;
+    font-size: 15px !important;
+}
+.about-inner .about-inner-content ul li i {
+    color: #38bdf8 !important;
+    margin-right: 8px !important;
+}
+.about-inner .about-inner-content .btn-primary {
+    background: #38bdf8 !important;
+    border: none !important;
+    color: #0f172a !important;
+    font-weight: 700;
+    padding: 12px 35px;
+    border-radius: 30px;
+}
+.about-inner .about-inner-content .btn-primary:hover {
+    background: #fff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
+}
+/* Funfacts Redesign */
+.about-funfacts {
+    margin-top: 50px;
+    padding: 0;
+}
+.about-funfacts .row {
+    justify-content: center;
+}
+.about-funfacts .single-about-funfact {
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.06);
+    text-align: center;
+    transition: all 0.4s ease;
+    border-bottom: 4px solid #38bdf8;
+    height: 100%;
+}
+.about-funfacts .single-about-funfact:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.12);
+}
+.about-funfacts .single-about-funfact h3 {
+    font-size: 48px !important;
+    font-weight: 800;
+    color: #0f172a !important;
+    margin-bottom: 15px !important;
+    display: inline-block;
+}
+.about-funfacts .single-about-funfact h3 .odometer {
+    color: #0f172a !important;
+}
+.about-funfacts .single-about-funfact p {
+    font-size: 13px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #64748b !important;
+    margin: 0;
+    line-height: 1.5;
+}
+/* Projects Redesign Overrides */
+.single-projects-box {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+    transition: all 0.5s ease;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+.single-projects-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+.single-projects-box .projects-image {
+    position: relative;
+}
+.single-projects-box .projects-image img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    transition: transform 0.8s ease;
+}
+.single-projects-box:hover .projects-image img {
+    transform: scale(1.1);
+}
+.single-projects-box .projects-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.4) 50%, rgba(15, 23, 42, 0) 100%);
+    pointer-events: none;
+}
+.single-projects-box .projects-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    z-index: 2;
+    background: transparent !important;
+}
+.single-projects-box .projects-content h3 {
+    margin-bottom: 8px;
+}
+.single-projects-box .projects-content h3 a {
+    color: #fff !important;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.single-projects-box:hover .projects-content h3 a {
+    color: #38bdf8 !important;
+}
+.single-projects-box .projects-content span {
+    color: #94a3b8 !important;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.single-projects-box .btn-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.4s ease;
+}
+.single-projects-box:hover .btn-box {
+    opacity: 1;
+    transform: translateY(0);
+}
+.single-projects-box .btn-box a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #38bdf8;
+    color: #0f172a;
+    border-radius: 50%;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
+.single-projects-box .btn-box a:hover {
+    background: #fff;
+    color: #38bdf8;
+    transform: rotate(90deg);
+}
+/* Projects Section Title & Filters Centered Redesign */
+.projects-area-two .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.projects-area-two .section-title .bar {
+    margin: 20px auto 0;
+}
+.projects-area-two .section-title span {
+    display: block;
+    color: #38bdf8 !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.projects-area-two .section-title h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.shorting-menu {
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.shorting-menu .filter {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 30px !important;
+    padding: 12px 25px !important;
+    color: #cbd5e1 !important;
+    font-weight: 600 !important;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    margin: 0 !important;
+    backdrop-filter: blur(10px);
+}
+.shorting-menu .filter:hover {
+    background: rgba(56, 189, 248, 0.1) !important;
+    border-color: #38bdf8 !important;
+    color: #38bdf8 !important;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(56, 189, 248, 0.15);
+}
+.shorting-menu .filter.active {
+    background: #38bdf8 !important;
+    border-color: #38bdf8 !important;
+    color: #0f172a !important;
+    box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
+}
+.projects-view-all-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.projects-view-all-container .btn-primary {
+    background: transparent !important;
+    border: 2px solid #38bdf8 !important;
+    color: #38bdf8 !important;
+    border-radius: 30px;
+    padding: 12px 40px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+.projects-view-all-container .btn-primary:hover {
+    background: #38bdf8 !important;
+    color: #0f172a !important;
+    box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
+}
+/* Blog Redesign Overrides */
+.single-blog-post-box {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.06);
+    margin-bottom: 30px;
+    transition: all 0.5s ease;
+    border: 1px solid rgba(0,0,0,0.03);
+}
+.single-blog-post-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.12);
+}
+.single-blog-post-box .blog-image {
+    overflow: hidden;
+    position: relative;
+}
+.single-blog-post-box .blog-image img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: transform 0.8s ease;
+}
+.single-blog-post-box:hover .blog-image img {
+    transform: scale(1.08);
+}
+.single-blog-post-box .blog-post-content {
+    padding: 35px 30px;
+    position: relative;
+    z-index: 2;
+}
+.single-blog-post-box .blog-post-content .tags {
+    padding: 0;
+    margin: 0 0 15px 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.single-blog-post-box .blog-post-content .tags li a {
+    color: #38bdf8 !important;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.single-blog-post-box .blog-post-content h3 {
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+.single-blog-post-box .blog-post-content h3 a {
+    color: #0f172a !important;
+    font-size: 22px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.single-blog-post-box:hover .blog-post-content h3 a {
+    color: #38bdf8 !important;
+}
+.single-blog-post-box .blog-post-content .post-meta {
+    padding: 0;
+    margin: 0 0 20px 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding-bottom: 15px;
+}
+.single-blog-post-box .blog-post-content .post-meta li {
+    color: #64748b;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.single-blog-post-box .blog-post-content .post-meta li i {
+    color: #38bdf8;
+}
+.single-blog-post-box .blog-post-content .post-meta li a {
+    color: #64748b !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.single-blog-post-box .blog-post-content .post-meta li a:hover {
+    color: #0f172a !important;
+}
+.single-blog-post-box .blog-post-content p {
+    color: #475569 !important;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+.blog-area .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.blog-area .section-title span {
+    display: block;
+    color: #38bdf8 !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.blog-area .section-title h2 {
+    color: #0f172a;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.blog-area .section-title .bar {
+    margin: 20px auto 0;
+}
+/* Why Choose Us Redesign */
+.why-choose-us {
+    background: #0f172a;
+}
+.why-choose-us-image {
+    background-image: url('assets/img/why-choose-us-new.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    box-shadow: 10px 0 30px rgba(0,0,0,0.5);
+    min-height: 500px;
+    height: 100%;
+}
+.why-choose-us-image::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(to right, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.1) 100%);
+}
+.why-choose-us-content {
+    background: #0f172a;
+    padding: 80px 40px !important;
+}
+.why-choose-us-content .section-title span {
+    color: #38bdf8 !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.why-choose-us-content .section-title h2 {
+    color: #fff !important;
+    font-size: 40px;
+    font-weight: 800;
+}
+.why-choose-us-content > p {
+    color: #cbd5e1 !important;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+.why-choose-us-content .single-inner-box {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 20px;
+    padding: 30px 25px;
+    margin-bottom: 25px;
+    transition: all 0.4s ease;
+}
+.why-choose-us-content .single-inner-box:hover {
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.06);
+    border-color: #38bdf8;
+    box-shadow: 0 10px 20px rgba(56, 189, 248, 0.1);
+}
+.why-choose-us-content .single-inner-box .icon {
+    width: 60px;
+    height: 60px;
+    background: rgba(56, 189, 248, 0.1) !important;
+    color: #38bdf8 !important;
+    border-radius: 15px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: all 0.4s ease;
+}
+.why-choose-us-content .single-inner-box:hover .icon {
+    background: #38bdf8 !important;
+    color: #0f172a !important;
+    transform: rotateY(180deg);
+}
+.why-choose-us-content .single-inner-box h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.why-choose-us-content .single-inner-box p {
+    color: #94a3b8;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0;
 }
 </style>
 
@@ -350,10 +990,10 @@
                             <div class="row">
                                 <div class="col-lg-7 col-md-12">
                                     <div class="main-banner-content">
-                                        <h1 style="color: #ffffff;">Engineering Energy Reliability. Refining with Precision.</h1>
+                                        <h1 style="color: #ffffff;">Powering Progress with Precision Refining.</h1>
                                         <p style="color: #F8FAFC;">Lains Dzhamp LLP delivers high-efficiency refining operations, processing crude streams into essential industrial fuels and petrochemical feedstocks with unmatched operational discipline.</p>
-                                        <a href="#" class="btn btn-primary" style="margin-right: 15px;">Explore Refining Capabilities</a>
-                                        <a href="#" class="btn" style="border: 2px solid var(--secondary-slate); background: transparent; color: #ffffff;">Supply Chain & Offtake</a>
+                                        <a href="#" class="btn btn-primary" style="margin-right: 15px;">Explore Capabilities</a>
+                                        <a href="#" class="btn" style="border: 2px solid var(--secondary-slate); background: transparent; color: #ffffff;">Supply Chain</a>
                                     </div>
                                 </div>
                             </div>
@@ -368,10 +1008,10 @@
                             <div class="row">
                                 <div class="col-lg-7 col-md-12">
                                     <div class="main-banner-content">
-                                        <h1 style="color: #ffffff;">World-Class Logistics and Global Supply Chain.</h1>
+                                        <h1 style="color: #ffffff;">Seamless Global Logistics & Supply Chain.</h1>
                                         <p style="color: #F8FAFC;">Strategically integrating deep-water terminal access, extensive rail networks, and high-capacity storage to ensure your petroleum products reach global markets safely and on time.</p>
-                                        <a href="#" class="btn btn-primary" style="margin-right: 15px;">Explore Refining Capabilities</a>
-                                        <a href="#" class="btn" style="border: 2px solid var(--secondary-slate); background: transparent; color: #ffffff;">Supply Chain & Offtake</a>
+                                        <a href="#" class="btn btn-primary" style="margin-right: 15px;">Our Facilities</a>
+                                        <a href="#" class="btn" style="border: 2px solid var(--secondary-slate); background: transparent; color: #ffffff;">Logistics</a>
                                     </div>
                                 </div>
                             </div>
@@ -386,10 +1026,10 @@
                             <div class="row">
                                 <div class="col-lg-7 col-md-12">
                                     <div class="main-banner-content">
-                                        <h1 style="color: #ffffff;">Commitment to Safety and Environmental Stewardship.</h1>
-                                        <p style="color: #F8FAFC;">Operating with a 'Zero Harm' philosophy. We leverage advanced technologies to minimize our carbon footprint, maximize efficiency, and uphold the highest HSE standards in the industry.</p>
-                                        <a href="#" class="btn btn-primary" style="margin-right: 15px;">Explore Refining Capabilities</a>
-                                        <a href="#" class="btn" style="border: 2px solid var(--secondary-slate); background: transparent; color: #ffffff;">Supply Chain & Offtake</a>
+                                        <h1 style="color: #ffffff;">Uncompromising Safety & Sustainable Innovation.</h1>
+                                        <p style="color: #F8FAFC;">Operating with a 'Zero Harm' philosophy. We leverage advanced technologies to minimize our carbon footprint, maximize efficiency, and uphold the highest HSE standards.</p>
+                                        <a href="#" class="btn btn-primary" style="margin-right: 15px;">Sustainability</a>
+                                        <a href="#" class="btn" style="border: 2px solid var(--secondary-slate); background: transparent; color: #ffffff;">Our Values</a>
                                     </div>
                                 </div>
                             </div>
@@ -455,8 +1095,8 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-lg-7 col-md-7">
                             <div class="bar"></div>
-                            <h2>Services</h2>
-                            <span>How we can help you?</span>
+                            <h2>Our Expertise</h2>
+                            <span>Comprehensive Energy Solutions</span>
                         </div>
 
                         <div class="col-lg-5 col-md-5 text-end">
@@ -469,7 +1109,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-services-box">
                             <div class="services-image">
-                                <img src="assets/img/service-one.jpg" alt="image">
+                                <img src="assets/img/gen-engineering.jpg" alt="Engineering">
 
                                 <div class="icon">
                                     <i class="flaticon-tank"></i>
@@ -477,7 +1117,7 @@
                             </div>
 
                             <div class="services-content">
-                                <h3><a href="#">Oil & Gas Engineering</a></h3>
+                                <h3><a href="#">Energy Systems Engineering</a></h3>
 
                                 <div class="link-icon">
                                     <a href="#"><i class="flaticon-right-arrow"></i></a>
@@ -493,7 +1133,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-services-box">
                             <div class="services-image">
-                                <img src="assets/img/service-two.jpg" alt="image">
+                                <img src="assets/img/gen-research.jpg" alt="Research">
 
                                 <div class="icon">
                                     <i class="flaticon-tractor"></i>
@@ -501,7 +1141,7 @@
                             </div>
 
                             <div class="services-content">
-                                <h3><a href="#">Petroleum Research</a></h3>
+                                <h3><a href="#">Hydrocarbon Research</a></h3>
 
                                 <div class="link-icon">
                                     <a href="#"><i class="flaticon-right-arrow"></i></a>
@@ -517,7 +1157,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-services-box">
                             <div class="services-image">
-                                <img src="assets/img/service-three.jpg" alt="image">
+                                <img src="assets/img/gen-coal.jpg" alt="Industrial">
 
                                 <div class="icon">
                                     <i class="flaticon-motor-1"></i>
@@ -525,7 +1165,7 @@
                             </div>
 
                             <div class="services-content">
-                                <h3><a href="#">Oil & Gas Coal</a></h3>
+                                <h3><a href="#">Fossil Fuel Integration</a></h3>
 
                                 <div class="link-icon">
                                     <a href="#"><i class="flaticon-right-arrow"></i></a>
@@ -541,7 +1181,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-services-box">
                             <div class="services-image">
-                                <img src="assets/img/service-four.jpg" alt="image">
+                                <img src="assets/img/gen-filtering.jpg" alt="Filtering">
 
                                 <div class="icon">
                                     <i class="flaticon-bridge"></i>
@@ -549,7 +1189,7 @@
                             </div>
 
                             <div class="services-content">
-                                <h3><a href="#">Oil & Gas Filtering</a></h3>
+                                <h3><a href="#">Hydrocarbon Purification</a></h3>
 
                                 <div class="link-icon">
                                     <a href="#"><i class="flaticon-right-arrow"></i></a>
@@ -565,7 +1205,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-services-box">
                             <div class="services-image">
-                                <img src="assets/img/service-five.jpg" alt="image">
+                                <img src="assets/img/gen-transport.jpg" alt="Transportation">
 
                                 <div class="icon">
                                     <i class="flaticon-sports-and-competition"></i>
@@ -573,7 +1213,7 @@
                             </div>
 
                             <div class="services-content">
-                                <h3><a href="#">Oil and gas Transportation  </a></h3>
+                                <h3><a href="#">Global Energy Supply Chain</a></h3>
 
                                 <div class="link-icon">
                                     <a href="#"><i class="flaticon-right-arrow"></i></a>
@@ -589,7 +1229,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-services-box">
                             <div class="services-image">
-                                <img src="assets/img/service-six.jpg" alt="image">
+                                <img src="assets/img/gen-tech.jpg" alt="Technology">
 
                                 <div class="icon">
                                     <i class="flaticon-factory"></i>
@@ -597,7 +1237,7 @@
                             </div>
 
                             <div class="services-content">
-                                <h3><a href="#">Technological applications</a></h3>
+                                <h3><a href="#">Digital Energy Solutions</a></h3>
 
                                 <div class="link-icon">
                                     <a href="#"><i class="flaticon-right-arrow"></i></a>
@@ -621,28 +1261,28 @@
                     <div class="row m-0 h-100 align-items-center">
                         <div class="col-lg-6 col-md-12 p-0">
                             <div class="about-inner-image">
-                                <img src="assets/img/about2.jpg" alt="about">
+                                <img src="assets/img/gen-refinery.jpg" alt="Beautiful Modern Refinery">
                             </div>
                         </div>
     
                         <div class="col-lg-6 col-md-12 p-0">
                             <div class="about-inner-content">
-                                <span>About us</span>
-                                <h3>LAINS DZHAMP LLP.</h3>
-                                <p>Our refinery has a capacity of 42,000 barrels per day and a total storage capacity of 2.9 million barrels. We produce high quality motor, aviation and marine fuels, and are a leading in-state producer of asphalt. We proactively take steps to improve the sustainability of our refinery and logistics assets.</p>
+                                <span>The Core of Our Operations</span>
+                                <h3 style="line-height: 1.4; margin-bottom: 20px;">Delivering technical excellence and driving operational innovation.</h3>
+                                <p>Our refinery processes 42,000 barrels per day with a total storage capacity of 2.9 million barrels. We produce high-quality motor, aviation, and marine fuels, and lead the market as a premier asphalt producer. We are proactively committed to advancing the sustainability and efficiency of our refining and logistics assets.</p>
                                 
                                 <ul>
-                                    <li><i class="flaticon-check"></i>Quality Control System</li>
-                                    <li><i class="flaticon-check"></i>Expert Engineers</li>
-                                    <li><i class="flaticon-check"></i>Professional & Qualified</li>
-                                    <li><i class="flaticon-check"></i> Best Automation</li>
-                                    <li><i class="flaticon-check"></i> Legal Compliance</li>
-                                    <li><i class="flaticon-check"></i> 24/7 Support</li>
+                                    <li><i class="flaticon-check"></i>Rigorous Quality Control</li>
+                                    <li><i class="flaticon-check"></i>Industry-Leading Expertise</li>
+                                    <li><i class="flaticon-check"></i>Unwavering Compliance</li>
+                                    <li><i class="flaticon-check"></i>Advanced Automation</li>
+                                    <li><i class="flaticon-check"></i>Zero Harm Philosophy</li>
+                                    <li><i class="flaticon-check"></i>24/7 Global Support</li>
                                 </ul>
 
-                                <p>The tradition of refining here in Lains Dzhamp LLP is one that is evolving to include products and processes that take the grit we have as an industry, and apply it to more efficient, cleaner, sustainable energy sources.</p>
+                                <p>The tradition of refining at Lains Dzhamp LLP is constantly evolving. We take our industry heritage and apply it to develop cleaner, more efficient, and sustainable energy solutions for the future.</p>
 
-                                <a href="#" class="btn btn-primary">More About Us</a>
+                                <a href="#" class="btn btn-primary">Discover More</a>
                             </div>
                         </div>
                     </div>
@@ -652,28 +1292,28 @@
                     <div class="row">
                         <div class="col-lg-3 col-6 col-md-3">
                             <div class="single-about-funfact">
-                                <h3><span class="odometer" data-count="41000">00</span>+</h3>
+                                <h3><span class="odometer" data-count="54000">00</span>+</h3>
                                 <p>BARRELS PER DAY OF REFINING CAPACITY</p>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-6 col-md-3">
                             <div class="single-about-funfact">
-                                <h3><span class="odometer" data-count="14">00</span>+</h3>
+                                <h3><span class="odometer" data-count="23">00</span>+</h3>
                                 <p>Miles of Pipeline</p>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-6 col-md-3">
                             <div class="single-about-funfact">
-                                <h3><span class="odometer" data-count="29000000">00</span>+</h3>
+                                <h3><span class="odometer" data-count="3000000">00</span>+</h3>
                                 <p>BARRELS OF STORAGE CAPACITY</p>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-6 col-md-3">
                             <div class="single-about-funfact">
-                                <h3><span class="odometer" data-count="5">00</span>+</h3>
+                                <h3><span class="odometer" data-count="7">00</span>+</h3>
                                 <p>ONSHORE / OFFSHORE FACILITIES</p>
                             </div>
                         </div>
@@ -688,24 +1328,16 @@
         <!-- Start Projects Area -->
         <section class="projects-area-two ptb-100 bg-black">
             <div class="container">
-                <div class="section-title">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-lg-7 col-md-7">
-                            <div class="bar"></div>
-                            <h2>Inside Lains Dzhamp LLP</h2>
-                            <span>Technical proficiency & commitment to operational excellence</span>
-                        </div>
-
-                        <div class="col-lg-5 col-md-5 text-end">
-                            <a href="#" class="btn btn-primary">View All</a>
-                        </div>
-                    </div>
+                <div class="section-title text-center">
+                    <span>Technical proficiency & commitment to operational excellence</span>
+                    <h2>Inside Lains Dzhamp LLP</h2>
+                    <div class="bar mx-auto"></div>
                 </div>
 
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <div class="shorting-menu">
-                            <button class="filter" data-filter="all"><i class="flaticon-grid"></i> All</button>
+                            <button class="filter active" data-filter="all"><i class="flaticon-grid"></i> All</button>
                             <button class="filter" data-filter=".petrolium">Petroleum</button>
                             <button class="filter" data-filter=".construction">Gas Plant</button>
                             <button class="filter" data-filter=".mechanical">Industry</button>
@@ -720,17 +1352,17 @@
                         <div class="col-lg-4 col-sm-6 mix petrolium industry">
                             <div class="single-projects-box">
                                 <div class="projects-image">
-                                    <img src="assets/img/project-one.jpg" alt="image">
+                                    <img src="assets/img/project-new-1.jpg" alt="Facility Upgrades">
 
                                     <div class="btn-box">
-                                        <a href="assets/img/project-one.jpg" class="popup-btn"><i class="flaticon-photo-1"></i></a>
+                                        <a href="assets/img/project-new-1.jpg" class="popup-btn"><i class="flaticon-photo-1"></i></a>
                                         <a href="#" class="link-btn"><i class="flaticon-chain"></i></a>
                                     </div>
                                 </div>
 
                                 <div class="projects-content">
-                                    <h3><a href="#">Building Renovation</a></h3>
-                                    <span>Oil & Gas</span>
+                                    <h3><a href="#">Facility Upgrades</a></h3>
+                                    <span>Modern Operations</span>
                                 </div>
                             </div>
                         </div>
@@ -738,17 +1370,17 @@
                         <div class="col-lg-4 col-sm-6 mix construction power-gas">
                             <div class="single-projects-box">
                                 <div class="projects-image">
-                                    <img src="assets/img/project-two.jpg" alt="image">
+                                    <img src="assets/img/project-new-2.jpg" alt="Hydrocarbon Analysis">
 
                                     <div class="btn-box">
-                                        <a href="assets/img/project-two.jpg" class="popup-btn"><i class="flaticon-photo-1"></i></a>
+                                        <a href="assets/img/project-new-2.jpg" class="popup-btn"><i class="flaticon-photo-1"></i></a>
                                         <a href="#" class="link-btn"><i class="flaticon-chain"></i></a>
                                     </div>
                                 </div>
 
                                 <div class="projects-content">
-                                    <h3><a href="#">Petroleum Research</a></h3>
-                                    <span>Oil & Gas</span>
+                                    <h3><a href="#">Hydrocarbon Analysis</a></h3>
+                                    <span>Laboratory</span>
                                 </div>
                             </div>
                         </div>
@@ -756,17 +1388,17 @@
                         <div class="col-lg-4 col-sm-6 mix mechanical petrolium">
                             <div class="single-projects-box">
                                 <div class="projects-image">
-                                    <img src="assets/img/project-three.jpg" alt="image">
+                                    <img src="assets/img/project-new-3.jpg" alt="Fossil Fuel Processing">
 
                                     <div class="btn-box">
-                                        <a href="assets/img/project-three.jpg" class="popup-btn"><i class="flaticon-photo-1"></i></a>
+                                        <a href="assets/img/project-new-3.jpg" class="popup-btn"><i class="flaticon-photo-1"></i></a>
                                         <a href="#" class="link-btn"><i class="flaticon-chain"></i></a>
                                     </div>
                                 </div>
 
                                 <div class="projects-content">
-                                    <h3><a href="#">Oil & Gas Coal</a></h3>
-                                    <span>Oil & Gas</span>
+                                    <h3><a href="#">Fossil Fuel Processing</a></h3>
+                                    <span>Core Plant</span>
                                 </div>
                             </div>
                         </div>
@@ -774,17 +1406,17 @@
                         <div class="col-lg-4 col-sm-6 mix power-gas industry">
                             <div class="single-projects-box">
                                 <div class="projects-image">
-                                    <img src="assets/img/project-four.jpg" alt="image">
+                                    <img src="assets/img/project-new-4.jpg" alt="Infrastructure Overhaul">
 
                                     <div class="btn-box">
-                                        <a href="assets/img/project-four.jpg" class="popup-btn"><i class="flaticon-photo-1"></i></a>
+                                        <a href="assets/img/project-new-4.jpg" class="popup-btn"><i class="flaticon-photo-1"></i></a>
                                         <a href="#" class="link-btn"><i class="flaticon-chain"></i></a>
                                     </div>
                                 </div>
 
                                 <div class="projects-content">
-                                    <h3><a href="#">Building Renovation</a></h3>
-                                    <span>Oil & Gas</span>
+                                    <h3><a href="#">Infrastructure Overhaul</a></h3>
+                                    <span>Logistics & Build</span>
                                 </div>
                             </div>
                         </div>
@@ -792,17 +1424,17 @@
                         <div class="col-lg-4 col-sm-6 mix industry mechanical ">
                             <div class="single-projects-box">
                                 <div class="projects-image">
-                                    <img src="assets/img/project-five.png" alt="image">
+                                    <img src="assets/img/project-new-5.jpg" alt="Refinery Purification">
 
                                     <div class="btn-box">
-                                        <a href="assets/img/project-five.png" class="popup-btn"><i class="flaticon-photo-1"></i></a>
+                                        <a href="assets/img/project-new-5.jpg" class="popup-btn"><i class="flaticon-photo-1"></i></a>
                                         <a href="#" class="link-btn"><i class="flaticon-chain"></i></a>
                                     </div>
                                 </div>
 
                                 <div class="projects-content">
-                                    <h3><a href="#">Oil & Gas Filtering</a></h3>
-                                    <span>Oil & Gas</span>
+                                    <h3><a href="#">Refinery Purification</a></h3>
+                                    <span>Filtration Tech</span>
                                 </div>
                             </div>
                         </div>
@@ -810,17 +1442,17 @@
                         <div class="col-lg-4 col-sm-6 mix construction petrolium">
                             <div class="single-projects-box">
                                 <div class="projects-image">
-                                    <img src="assets/img/project-one.jpg" alt="image">
+                                    <img src="assets/img/project-new-6.jpg" alt="Plant Modernization">
 
                                     <div class="btn-box">
-                                        <a href="assets/img/project-one.jpg" class="popup-btn"><i class="flaticon-photo-1"></i></a>
+                                        <a href="assets/img/project-new-6.jpg" class="popup-btn"><i class="flaticon-photo-1"></i></a>
                                         <a href="#" class="link-btn"><i class="flaticon-chain"></i></a>
                                     </div>
                                 </div>
 
                                 <div class="projects-content">
-                                    <h3><a href="#">Building Renovation</a></h3>
-                                    <span>Oil & Gas</span>
+                                    <h3><a href="#">Plant Modernization</a></h3>
+                                    <span>Digital Systems</span>
                                 </div>
                             </div>
                         </div>
@@ -832,55 +1464,7 @@
         </section>
         <!-- End Projects Area -->
 
-        <!-- Start Partner Area -->
-        <div class="partner-area ptb-100 bg-f7f7f7">
-            <div class="container">
-                <div class="row">
-                    <div class="partner-slides owl-carousel owl-theme">
-                        <div class="col-lg-12">
-                            <div class="partner-item">
-                                <a href="#">
-                                    <img src="assets/img/partner1.png" alt="partner-logo">
-                                </a>
-                            </div>
-                        </div>
 
-                        <div class="col-lg-12">
-                            <div class="partner-item">
-                                <a href="#">
-                                    <img src="assets/img/partner2.png" alt="partner-logo">
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-12">
-                            <div class="partner-item">
-                                <a href="#">
-                                    <img src="assets/img/partner3.png" alt="partner-logo">
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-12">
-                            <div class="partner-item">
-                                <a href="#">
-                                    <img src="assets/img/partner4.png" alt="partner-logo">
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-12">
-                            <div class="partner-item">
-                                <a href="#">
-                                    <img src="assets/img/partner5.png" alt="partner-logo">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Partner Area -->
 
         <!-- Start CTA Area -->
         <section class="cta-area ptb-100 bg-black">
@@ -1106,11 +1690,9 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-lg-7 col-md-7">
                             <div class="bar"></div>
-                            <h2>Testimonials</h2>
-                            <span>What clients say about us</span>
+                            <h2>Client Experiences</h2>
+                            <span>What our partners say about us</span>
                         </div>
-
-
                     </div>
                 </div>
 
@@ -1119,11 +1701,11 @@
                         <div class="col-lg-12">
                             <div class="single-testimonials">
                                 <div class="client-info">
-                                    <img src="assets/img/client2.png" alt="image">
-                                    <h5>Haneul Ji-Yeong</h5>
-                                    <span></span>
+                                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=150&auto=format&fit=crop" alt="Client 1">
+                                    <h5>David Reynolds</h5>
+                                    <span style="display: block; font-size: 13px; color: var(--secondary-slate); margin-bottom: 10px;">Logistics Director</span>
                                 </div>
-                                <p>"Lains Dzhamp LLP really strives to have a great customer experience. They understand that things can change quickly and are always on their toes to accommodate. They are creative, thorough, and detail oriented individuals that will work with you through any type of challenge."</p>
+                                <p>"Partnering with Lains Dzhamp LLP has streamlined our supply chain immensely. Their deep-water terminal access and efficient refining processes have allowed us to meet tight deadlines globally. They are responsive, proactive, and truly dedicated to excellence."</p>
 
                                 <ul>
                                     <li><i class="flaticon-star"></i></li>
@@ -1138,11 +1720,11 @@
                         <div class="col-lg-12">
                             <div class="single-testimonials">
                                 <div class="client-info">
-                                    <img src="assets/img/client2.png" alt="image">
-                                    <h5>Atheer Bintang</h5>
-                                    <span></span>
+                                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=150&auto=format&fit=crop" alt="Client 2">
+                                    <h5>Elena Volkov</h5>
+                                    <span style="display: block; font-size: 13px; color: var(--secondary-slate); margin-bottom: 10px;">Operations Manager</span>
                                 </div>
-                                <p>"Lains Dzhamp LLP is a company we can always rely on and they always go the extra mile for us. They are always fast, efficient, and have competitive pricing. I would recommend working with Lains Dzhamp LLP if you need a company in oil & Gas to work with. Thank you for your continuous exceptional service!</p>
+                                <p>"The commitment to sustainability and the 'Zero Harm' philosophy at Lains Dzhamp LLP sets them apart in the industry. We appreciate their forward-thinking approach, reducing environmental impact while maintaining top-tier product quality."</p>
 
                                 <ul>
                                     <li><i class="flaticon-star"></i></li>
@@ -1157,11 +1739,11 @@
                         <div class="col-lg-12">
                             <div class="single-testimonials">
                                 <div class="client-info">
-                                    <img src="assets/img/client2.png" alt="image">
-                                    <h5>Intan Setiawan</h5>
-                                    <span></span>
+                                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=150&auto=format&fit=crop" alt="Client 3">
+                                    <h5>Michael Chang</h5>
+                                    <span style="display: block; font-size: 13px; color: var(--secondary-slate); margin-bottom: 10px;">Procurement Head</span>
                                 </div>
-                                <p>I have been using Lains Dzhamp LLP for the past five years for all of my Petrol products requirements. I have always been treated with professionalism and I would recommend Lains Dzhamp LLP for all of your petrol products needs.</p>
+                                <p>"We rely heavily on Lains Dzhamp LLP for our industrial fuel needs. Their rigorous quality control ensures we receive exactly what we specify, every single time. It's rare to find a partner as reliable and transparent in this market."</p>
 
                                 <ul>
                                     <li><i class="flaticon-star"></i></li>
@@ -1186,27 +1768,19 @@
 
 
         <!-- Start Blog Area -->
-        <section class="blog-area ptb-100 pb-0 bg-style">
+        <section class="blog-area ptb-100 pb-70 bg-style">
             <div class="container">
-                <div class="section-title">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-lg-7 col-md-7">
-                            <div class="bar"></div>
-                            <h2>Company Updates</h2>
-                            <span>Latest industry news</span>
-                        </div>
-
-                        <div class="col-lg-5 col-md-5 text-end">
-                            <a href="#" class="btn btn-primary">View All</a>
-                        </div>
-                    </div>
+                <div class="section-title text-center">
+                    <span>Latest industry news</span>
+                    <h2>Company Updates</h2>
+                    <div class="bar mx-auto"></div>
                 </div>
 
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="single-blog-post-box">
                             <div class="blog-image">
-                                <a href="#"><img src="assets/img/blog-one.jpg" alt="blog-image"></a>
+                                <a href="#"><img src="assets/img/blog-new-1.jpg" alt="Data Analysis"></a>
                             </div>
 
                             <div class="blog-post-content">
@@ -1215,13 +1789,12 @@
                                     <li><a href="#">News</a></li>
                                 </ul>
 
-                                <h3><a href="#">Expert Analysis saves the day</a></h3>
+                                <h3><a href="#">Precision Data Analytics Prevent Drilling Delays</a></h3>
                                 <ul class="post-meta">
                                     <li><i class="flaticon-user-1"></i> <a href="#">Maxwel</a></li>
                                     <li><i class="flaticon-calendar"></i> <a href="#">April 15, 2023</a></li>
                                 </ul>
-                                <p>Engineers’ competency with gas data interpretation and quality of data gave the company an excellent input in the interruption of drilling of a phase with entry into the top reservoir, allowing to meet the drilling plan and reduce the risks associated with the exposure of a long stretch with potential significance for loss of circulation.
-</p>
+                                <p>Our engineering team's exceptional proficiency in real-time gas data interpretation proved critical during a recent reservoir entry phase. Their rapid analysis mitigated severe circulation loss risks, keeping the entire drilling schedule perfectly on track.</p>
                             </div>
                         </div>
                     </div>
@@ -1229,7 +1802,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-blog-post-box">
                             <div class="blog-image">
-                                <a href="#"><img src="assets/img/blog-two.jpg" alt="blog-image"></a>
+                                <a href="#"><img src="assets/img/blog-new-2.jpg" alt="Safety Standards"></a>
                             </div>
 
                             <div class="blog-post-content">
@@ -1238,13 +1811,12 @@
                                     <li><a href="#">News</a></li>
                                 </ul>
 
-                                <h3><a href="#">Goverment Agency Came for Facilities Inspection</a></h3>
+                                <h3><a href="#">Regulatory Authorities Commend Safety Standards</a></h3>
                                 <ul class="post-meta">
                                     <li><i class="flaticon-user-1"></i> <a href="#">Smith</a></li>
                                     <li><i class="flaticon-calendar"></i> <a href="#">August 17, 2023</a></li>
                                 </ul>
-                                <p>Their reports where that services provided were efficient, reliable, and of high quality. Work was carried out in a safe manner and with co-operative attitude. The Gas Equipment TG + CHR and CVD is of excellent quality and technology. Also complied with the Petroleum Ministry rules and procedures for safely maintaining the rig site.
-</p>
+                                <p>Official regulatory inspections confirmed that our operational services remain highly efficient, completely reliable, and of uncompromising quality. Our modern technology strictly adheres to all safety mandates, ensuring a flawlessly secure environment.</p>
                             </div>
                         </div>
                     </div>
@@ -1252,7 +1824,7 @@
                     <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                         <div class="single-blog-post-box">
                             <div class="blog-image">
-                                <a href="#"><img src="assets/img/blog-three.jpg" alt="blog-image"></a>
+                                <a href="#"><img src="assets/img/blog-new-3.jpg" alt="Surface Logging"></a>
                             </div>
 
                             <div class="blog-post-content">
@@ -1261,13 +1833,12 @@
                                     <li><a href="#">News</a></li>
                                 </ul>
 
-                                <h3><a href="#">Advanced surface logging</a></h3>
+                                <h3><a href="#">Next-Generation Surface Data Acquisition</a></h3>
                                 <ul class="post-meta">
                                     <li><i class="flaticon-user-1"></i> <a href="#">Warner</a></li>
                                     <li><i class="flaticon-calendar"></i> <a href="#">September 12, 2023</a></li>
                                 </ul>
-                                <p>Lains Dzhamp LLP advanced surface logging services enabled KOC to optimise well placement, maximising production in a challenging reservoir. Lains Dzhamp LLP’s approach to Geosteering used surface logging integrated with LWD in a real-time application: the method gave clear bed definition (LWD is often characterless) and can work without LWD.
-</p>
+                                <p>Our cutting-edge geosteering integration and surface telemetry have allowed partners to flawlessly optimize well placement in highly complex reservoirs. This innovative approach provides crystal-clear bed definitions in real-time, maximizing production yield.</p>
                             </div>
                         </div>
                     </div>
@@ -1285,7 +1856,7 @@
                             <div class="icon">
                                 
                             </div>
-                            <h3>LAINS DZHAMP LLP<br>BIN: 040340077273</h3>
+                            <h3>LAINS DZHAMP LLP<br>BIN: 911240000099</h3>
                             <ul>
                                 <li></li>
                                 <li></li>
